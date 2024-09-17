@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>Feedback form</title>
+</head>
+<body>
+          <label for="name">Name</label>
+          <input type="text" placeholder="enter your name"><br>
+          <label for="email">Email</label>
+          <input type="email" placeholder="enter email id"><br>
+          <label for="passwd">Password</label>
+          <input type="password" placeholder="enter password"><br>
+          <label for="gender">Gender</label><br>
+          <input type="radio" name="Gender" id="male"><label for="male">Male</label><br>
+          <input type="radio" name="Gender" id="female"><label for="female">Female</label><br>
+          <label for="country">country</label>
+          <input list="country" name="country">
+          <datalist id="country">
+            <option value="INDIA">
+            <option value="RUSSIA">
+            <option value="NORTH KOREA">
+            <option value="ISRAEL">
+            <option value="CHINA">
+          </datalist><br><br>
+          <label for="feedback">Feedback</label><br>
+          <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="write your feedback"></textarea><br>
+          <label for="fileupload">File Upload</label>
+          <input type="file" name="file" id="ufile" placeholder="upload a file"><br>
+          <label for="t&c">I agree to the terms and conditions:</label>
+          <input type="checkbox" name="t&c" id="t&c" required><br>
+
+          <button type="reset">Reset</button>
+          <button type="submit">submit</button>
+</body>
+</html>
